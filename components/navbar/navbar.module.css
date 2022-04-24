@@ -1,0 +1,62 @@
+.navbar-container {
+  display: flex;
+  margin: 0 2rem;
+  align-items: center;
+  gap: 0 48px;
+  border-bottom: 1px solid var(--light-gray);
+  padding-top: 17px;
+}
+
+.logo {
+  color: black;
+  cursor: pointer;
+
+  flex: 1;
+  font-family: "Allerta Stencil";
+  font-size: 2.125em;
+}
+
+.logo::first-letter {
+  color: var(--accent);
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  gap: 0 64px;
+}
+
+.menubar-item {
+  color: black;
+  cursor: pointer;
+  padding: 17px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.menubar-item.clicked{
+  border-bottom: 2px solid black;
+}
+
+
+.divider {
+  height: 17px;
+  width: 1px;
+  background: var(--dark-gray);
+}
+
+.actionbar {
+  display: flex;
+  align-items: center;
+  gap: 0 39px;
+}
+
+.actionbar-item {
+  padding: 19px 0;
+  cursor: pointer;
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+
+.actionbar-item.clicked {
+  border-bottom: 2px solid black;
+}
