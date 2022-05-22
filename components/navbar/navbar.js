@@ -20,9 +20,9 @@ const Navbar = () => {
             </div>
             <div className={styles.divider} />
             <div className={styles.actionbar}>
-                <img src='icons/search.svg' alt={'icons'} className={active == 3 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(3) }} />
-                <img src='icons/cart.svg' alt={'icons'} className={active == 4 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(4) }} />
-                <img src='icons/profile.svg' alt={'icons'} className={active == 5 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(5) }} />
+                <img src={`${process.env.NEXT_PUBLIC_WEB_ORIGIN}icons/search.svg`} alt={'icons'} className={active == 3 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(3) }} />
+                <img src={`${process.env.NEXT_PUBLIC_WEB_ORIGIN}icons/cart.svg`} alt={'icons'} className={active == 4 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(4) }} />
+                <img src={`${process.env.NEXT_PUBLIC_WEB_ORIGIN}icons/profile.svg`} alt={'icons'} className={active == 5 ? `${styles['actionbar-item']} ${styles['clicked']}` : styles['actionbar-item']} onClick={(e) => { handleClick(5) }} />
             </div>
         </div>
     )

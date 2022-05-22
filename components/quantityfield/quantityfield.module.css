@@ -1,0 +1,12 @@
+.quantity-field-container {
+    display: flex;
+    gap: 0 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--dark-gray);
+    background-color: var(--light-gray);
+}
+
+.quantity-field-button {
+    padding: 0 10px;
+}

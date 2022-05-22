@@ -1,30 +1,36 @@
 [
     {
+        "id": 0,
         "name": "Lira Earrings",
         "price": 20,
         "image": "images/product_1.png"
     },
     {
+        "id": 1,
         "name": "Hal Earrings",
         "price": 25,
         "image": "images/product_2.png"
     },
     {
+        "id": 2,
         "name": "Kaede Hair Pin Set Of 3",
         "price": 30,
         "image": "images/product_3.png"
     },
     {
+        "id": 3,
         "name": "Hair Pin Set Of 3",
         "price": 30,
         "image": "images/product_4.png"
     },
     {
+        "id": 4,
         "name": "Plain Necklace",
         "price": 19,
         "image": "images/product_5.png"
     },
     {
+        "id": 5,
         "name":"Yuki Hair Pin Set Of 3",
         "price": 29,
         "image": "images/product_6.png"
